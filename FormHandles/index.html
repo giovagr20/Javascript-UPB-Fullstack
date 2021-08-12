@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
-    crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <title>Elementos Formulario</title>
-</head>
-<body>
-
-
+  </head>
+  <body>
     <h1 class="handle-form">Formulario</h1>
 
     <form action="">
+      <div>
         <label for="input-nombre" class="input-nombre">Nombre</label>
-        <input type="text" id="input-nombre">
+        <input type="text" id="input-nombre" />
+      </div>
+
+      <div>
+        <label for="input-telefono" class="input-telefono">Telefono</label>
+        <input type="number" id="input-telefono" />
+      </div>
+
+      <div>
+        <label for="input-direccion" class="input-direccion">Direccion</label>
+        <input type="text" id="input-direccion" />
+      </div>
+
+      <div>
+        <label for="rb.genero-m">Masculino</label>
+        <input type="radio" id="rb-genero-m" name="genero" value="Masculino" checked="true"/>
+
+        <label for="rb-genero-f" class="rb-genero">Femenino</label>
+        <input type="radio" id="rb-genero-f" name="genero" value="Femenino" />
+      </div>
+
+      <div>
+        <input type="checkbox" id="option-1" name="option-1" value="op1" />
+        <label for="option-1">Opcion 1</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="option-2" name="option-2" value="op2" />
+        <label for="option-2">Opcion 2</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="option-3" name="option-3" value="op3" />
+        <label for="option-3">Opcion 3</label>
+      </div>
+
+      <div>
+        <select name="select-options" id="select-options">
+          <option value="value1">Valor1</option>
+          <option value="value2">Valor2</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <div>
+        <input
+          type="submit"
+          name="enviarDatos"
+          id="enviarDatos"
+          value="Enviar datos"
+        />
+      </div>
     </form>
-    
 
     <script src="index.js"></script>
-
-</body>
+  </body>
 </html>
