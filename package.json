@@ -1,12 +1,13 @@
 {
   "name": "Javascript course fullstack UPB",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://www.typescriptlang.org/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Giovanni Gomez R",
+
   "license": "ISC"
 }
